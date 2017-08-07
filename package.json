@@ -1,0 +1,8 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "klasa": "github:dirigeants/klasa#master",
+    "node": "^8.2.1"
+  }
+}
