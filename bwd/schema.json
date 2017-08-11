@@ -1,0 +1,53 @@
+{
+    "prefix": {
+        "type": "String",
+        "default": ":",
+        "array": false,
+        "sql": "TEXT NOT NULL DEFAULT ':'"
+    },
+    "modRole": {
+        "type": "Role",
+        "default": null,
+        "array": false,
+        "sql": "TEXT"
+    },
+    "adminRole": {
+        "type": "Role",
+        "default": null,
+        "array": false,
+        "sql": "TEXT"
+    },
+    "announcementRole": {
+        "type": "Role",
+        "default": null,
+        "array": false,
+        "sql": "TEXT"
+    },
+    "disabledCommands": {
+        "type": "Command",
+        "default": [],
+        "array": true,
+        "sql": "TEXT DEFAULT '[]'"
+    },
+    "language": {
+        "type": "Language",
+        "default": "en-US",
+        "array": false,
+        "sql": "TEXT DEFAULT 'en-US'"
+    },
+    "antiinvite": {
+        "type": "Boolean",
+        "default": false,
+        "array": false
+    },
+    "announcementChannel": {
+        "type": "Channel",
+        "default": null,
+        "array": false
+    },
+    "modlog" : {
+        "type": "Channel",
+        "default": null,
+        "array": false
+    }
+}
